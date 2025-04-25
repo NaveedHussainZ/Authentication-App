@@ -11,7 +11,7 @@ const Header = async ({ username }) => {
       <div className="flex items-center">
         <Link href="/">
           <div className="text-lg font-bold text-white uppercase">
-            Clerk App
+            Authentication App
           </div>
         </Link>
       </div>
