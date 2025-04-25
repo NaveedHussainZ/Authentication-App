@@ -28,7 +28,7 @@ const SignUpPage = () => {
       const result = await signUp.attemptEmailAddressVerification({ code });
       if (result.status === "complete") {
         await setActive({ session: result.createdSessionId });
-        router.push("/dashboard"); // ✅ Will redirect after signup
+        router.push("/Dashboard");
       }
     } catch (err) {
       console.error("Verification Error:", err);
