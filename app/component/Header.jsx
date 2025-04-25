@@ -7,7 +7,7 @@ const Header = async ({ username }) => {
   //   console.log(auth);
 
   return (
-    <nav className="flex items-center justify-between px-6 py-4 mb-5 bg-blue-700">
+    <nav className="flex items-center justify-between px-6 py-4 mb-5 bg-gray/20 backdrop-blur-md">
       <div className="flex items-center">
         <Link href="/">
           <div className="text-lg font-bold text-white uppercase">
