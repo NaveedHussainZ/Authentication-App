@@ -1,6 +1,6 @@
 "use client";
 import { useAuth } from "@clerk/nextjs";
-import Dashboard from "./dashboard/page";
+import Dashboard from "./Dashboard/page";
 
 export default function Home() {
   const { isSignedIn } = useAuth();
